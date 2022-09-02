@@ -11,7 +11,7 @@ const AvailableMeals = () => {
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(
-        "https://food-delivery-6cad8-default-rtdb.firebaseio.com/tasks/meals.json"
+        "https://food-delivery-app-cc3b4-default-rtdb.firebaseio.com/tasks/meals.json"
       );
       if (!response.ok) {
         throw new Error("Something went Wrong!!");
